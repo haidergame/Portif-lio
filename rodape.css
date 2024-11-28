@@ -1,0 +1,26 @@
+footer {
+    background-color: darkblue;
+    padding: 3em;
+    width: 100%;
+    bottom: 0;
+}
+
+#contato {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
+    text-align: center;
+}
+
+#contato img {
+    margin: 0 10px; 
+    height: auto;
+    max-width: 50px;
+}
+
+.autor {
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+}

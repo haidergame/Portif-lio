@@ -1,0 +1,43 @@
+/*cabeçalho*/ 
+#cabecalho { 
+    background-image: url(assets/background.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: cover;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    z-index: 100;
+}
+
+#navegacao, ul, li { 
+    display: flex;
+    flex-wrap: wrap; 
+    padding: 3px; 
+    align-items: center; 
+    justify-content: center; 
+    list-style: none; 
+    gap: 1em; 
+} 
+
+#navegacao li { 
+    background: rgba(13, 5, 5, 0.337); 
+    border: solid 1px; 
+    border-radius: 1em; 
+    font-size: 1em; 
+    color: silver; 
+    transition: 1s; 
+}
+
+#navegacao a { 
+    color: silver; 
+    text-decoration: none; 
+    padding: 10px 15px; 
+    transition: 0.5s; 
+} 
+
+#navegacao a:hover { 
+    color: whitesmoke; 
+    text-shadow: 0 0 8px white; 
+}
